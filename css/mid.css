@@ -461,7 +461,11 @@ padding-right: 8px;}
     border-left:1px solid;
     border-color: #bdbaba;
 }
-
+.searchfix{
+	top:650px;
+	position: fixed;
+	 width:202px;
+}
 
 
 /* article part */
