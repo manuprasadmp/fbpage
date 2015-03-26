@@ -34,7 +34,9 @@
 
 
 
-
+/*blue color link with underline on hover*/
+.ul:HOVER{text-decoration: underline;
+color:#214080;}
 
 
 /* friends request drop down menu*/
@@ -65,31 +67,31 @@ font-size: 12px;
 
   }
      
-  /* add friends drop down list 
+  /* add friends drop down list */
    .userdiv a.list-group-item:hover {
    
 text-decoration: underline;
 color:#214080;
     background-color:#f7f7f7;
-}*/
+}
 
 /* inbox dropdown list */
 
 
 .inbox a.list-group-item{
-	background-color:#EBEEF4;
-    color:black;
+	background-color:#e5e3ef;
+	
 }
 .inbox a.list-group-item:hover {
 	
-	background-color:#F5F7FA;
-	color:black;
+	background-color:#FFF;
+	
 	
 	}
 
 /*lockmenu dropdwn*/
 .listdiv .dropdown-menu .divider , .userdiv .dropdown-menu .divider , .inbox .dropdown-menu .divider, .notification .dropdown-menu .divider{
-    height: 2px;
+    height: 1px;
    
     margin: 0px 0px;}
      .listdiv a.list-group-item {
@@ -144,8 +146,8 @@ color:#214080;
 	color: rgba(33, 64, 128, 1);
 	background-color: transparent;
 }
-/* color change on hover for nav icons************************  */
-.userdiv .iconhvr:hover, .inbox .iconhvr:hover, .notification .iconhvr:hover, .listdiv .iconhvr:hover, .arrow .iconhvr:hover{
+
+.iconhvr a:hover {
 	text-decoration: none;
 	color: #242b3c;
 }
@@ -303,7 +305,6 @@ a:active, a:hover {
 
 #nav2 {
 	margin-top: -20px;
-	  margin-bottom:10px;
 }
 
 #buttonpostalign {
@@ -406,17 +407,8 @@ height:32px;
 div.information_popup_container > div.information {
 /* Position Information */
 /* Appearance Information */
-
-	border-color: #D5D6D9;
+background-color: #dfe3ee;
 }
-/*border on hover for chat*/
-div.information_popup_container > div.information:hover{
-	border:1px solid;
-	border-color: #D5D6D9;
-	
-}
-
-
 div.information_popup_container > div.popup_information {
 position:fixed; 
 visibility: hidden;
@@ -454,66 +446,7 @@ padding-right: 8px;}
 
 .chatscrollbar{
     height:655px;
-    width:202px;
+    width:200px;
     overflow-x:hidden;
     overflow-y:scroll;
-    position: fixed;
-    border-left:1px solid;
-    border-color: #bdbaba;
 }
-
-
-
-/* article part */
-.post{
-	
-	height: 685px;
-	width: 503px;
-	padding:12px;
-	margin-bottom: 10px;
-	
-	
-	    background: none repeat scroll 0% 0% #FFF;
-    border-width: 1px;
-    border-style: solid;
-   
-
-    border-color: #E5E6E9 #DFE0E4 #D0D1D5;
-    border-radius: 3px;
-}
-.post #smallpic{
-	float:left;
-	padding-right:5px;
-	padding-bottom:5px;
-}
-.post #head{
-	line-height:12px;
-}
-
-.post .peopleliked{
-	height: 33px;
-	
-	width:477px;
-	padding-top: 9px;
-	padding-right: 12px;
-	padding-left: 12px;
-	padding-bottom: 7px;
-	border-top: 1px solid;
-	border-color:#bdbaba;
-	}
-	.commentbox{
-	height: 47;
-	width:477px;
-	padding-top: 9px;
-	padding-right: 12px;
-	padding-left: 12px;
-	padding-bottom: 7px;
-	border-top: 1px solid;
-	border-color:#bdbaba;
-	
-	}
-	
-	.post #inputsm{
-	width:420px;
-	padding-right: 0px;
-	margin-right: 0px}
