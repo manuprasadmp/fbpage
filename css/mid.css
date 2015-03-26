@@ -453,7 +453,7 @@ padding-right: 8px;}
 /* chat scrollbar */
 
 .chatscrollbar{
-    height:655px;
+    height:605px;
     width:202px;
     overflow-x:hidden;
     overflow-y:scroll;
